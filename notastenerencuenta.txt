@@ -1,0 +1,13 @@
+aqui voy a poner todas las notas que creo que son importantes para tener en cuenta cuando estas maquetando
+
+estilos 
+es importante tener todos los estilos en un lugar para poder acceder a ellos
+es importante tener variables por que si se llega a cambiar algo que este dentro de la variables solo es modificar esta y listo
+si la tenemos repetida varias veces tendremos problemas en el momento del cambio ya que nos toca buscar donde se uso ese dato y cambiarlo
+manualmente
+
+
+aqui podemos ver reglas que nos ayudan a nuestro diseno ser mas agradable a el ojo
+https://polaris.shopify.com/design/design
+
+se recomienda siempre buscas los items que se repiten en la parte mobile y desktop para crearlos primero para hacerlo responsive
