@@ -1,0 +1,96 @@
+/* aqui vamos a estilisar los estilos de password.css*/
+/* importamos de style.css las variables de colores que vamos a usar */
+
+@import url(/assets/style/style.css);
+
+
+*body{
+    
+    font-family: 'Quicksand', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.login{
+    width:100%;
+    height:100vh;
+    display:grid;
+    place-items:center;
+    
+}
+
+.form-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width:300px;
+}
+
+.form-container h2{
+    margin-bottom: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form section{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.input{
+    background-color: var(--white);
+    border:none;
+    border-radius:8px;
+    height:30px;
+    font-size: var(--md);
+    padding: 4px;
+    margin-bottom: 22px;
+}
+
+
+.primary-button{
+    background-color:var(--white);
+    border-radius: 8px;
+    border:2px solid var(--hospital-gree);
+    color:var(--hospital-gree);
+    height:50px;
+    width:100%;
+    cursor:pointer;
+    font-size: var(--md);
+    font-weight:bold;   
+}
+
+
+.login-button{
+    margin-top:14px;
+    margin-bottom:30px;
+}
+
+
+
+
+
+@media(max-width:640px){
+    .logo{
+        display:block
+    }
+    
+    .form{
+        height:100%;
+        justify-content:space-between;
+    }
+    .form-container{
+        height:100%;
+    }
+    
+
+}
